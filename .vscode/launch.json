@@ -7,7 +7,8 @@
             "target": "${fileDirname}/${fileBasenameNoExtension}",
             "cwd": "${workspaceRoot}",
             "valuesFormatting": "parseText",
-            "preLaunchTask": "asm64"
+            "preLaunchTask": "asm64",
+            "autorun": ["set output-radix 16"]
 
         }
     
